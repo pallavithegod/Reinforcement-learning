@@ -1,0 +1,12 @@
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Ignore all model weights and checkpoints
+councilx_arbiter_final/
+dpo_lora_adapter*/
+.hf_cache/
+
+# Ignore datasets (optional but recommended)
+*.jsonl
